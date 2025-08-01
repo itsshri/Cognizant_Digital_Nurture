@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  padding: 0 20px;
+  border-right: 3px solid green;
+  flex: 1;
+}
+
+.section:last-child {
+  border-right: none;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.item-subtitle {
+  font-style: italic;
+  font-size: 14px;
+}
